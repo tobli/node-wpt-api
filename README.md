@@ -1,4 +1,4 @@
-# Node-wpt – A client for WebPageTest
+# Wpt-api – A client for WebPageTest
 
 Work in progress to build a WebPageTest client library with:
 - a consistent, Promised based API
@@ -7,7 +7,7 @@ Work in progress to build a WebPageTest client library with:
 - a high level API for common tasks and a low level API for more control
 
 ```js
-const { wpt } = require('node-wpt');
+const { wpt } = require('wpt-api');
 
 wpt.testUrl('http://www.sitespeed.io', { key },
     {
@@ -19,7 +19,7 @@ wpt.testUrl('http://www.sitespeed.io', { key },
 High level API: start test, poll for test completion, and stream attachments with custom handlers.
 
 ```js
-const { builders, WptConnection } = require('node-wpt');
+const { builders, WptConnection } = require('wpt-api');
 
 const VideoSpecBuilder = builders.VideoSpecBuilder;
 
@@ -50,13 +50,13 @@ Low level API: Use a builder to help build the parameters for creating a video. 
 
 
 ## Design
-Node-wpt does not include:
+Wpt-api does not include:
 - a cli client for interacting with WebPageTest
 - xml support
 - support for "server mode", i.e. pingbacks from WPT when tests run. Only polling is implemented
 
 ### Test
-Node-wpt only has a few manual tests at the moment. Provide your WPT key as an environment variable.
+Wpt-api only has a few manual tests at the moment. Provide your WPT key as an environment variable.
 
 ```sh
 > WPT_KEY=<your key> node test/wptTest.js

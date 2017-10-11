@@ -1,6 +1,6 @@
 {
-  "name": "node-wpt",
-  "version": "0.0.1",
+  "name": "wpt-api",
+  "version": "0.0.2",
   "description": "Node API for WebPageTest",
   "main": "index.js",
   "scripts": {
