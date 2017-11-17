@@ -27,5 +27,9 @@
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-prettier": "^2.3.1",
     "prettier": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tobli/node-wpt-api"
   }
 }
