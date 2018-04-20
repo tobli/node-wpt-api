@@ -16,10 +16,10 @@
   "author": "Tobias Lidskog <tobias@lidskog.se>",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.0",
+    "bluebird": "^3.5.1",
     "concurrent-queue": "^7.0.2",
-    "debug": "^3.0.1",
-    "got": "^7.1.0"
+    "debug": "^3.1.0",
+    "got": "^8.3.0"
   },
   "devDependencies": {
     "dev-null": "^0.1.1",
