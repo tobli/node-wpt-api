@@ -16,17 +16,19 @@
   "author": "Tobias Lidskog <tobias@lidskog.se>",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "concurrent-queue": "^7.0.2",
     "debug": "^3.1.0",
     "got": "^8.3.0"
   },
   "devDependencies": {
     "dev-null": "^0.1.1",
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
   },
   "repository": {
     "type": "git",
